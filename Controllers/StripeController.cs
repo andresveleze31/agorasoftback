@@ -52,8 +52,8 @@ namespace backend.Controllers
             public string OrganizationId { get; set; } = string.Empty;
             public string CustomerEmail { get; set; } = string.Empty;
             public string CustomerName { get; set; } = string.Empty;
-            public string SuccessUrl { get; set; } = "http://localhost:4200/admin/success";
-            public string CancelUrl { get; set; } = "http://localhost:4200/admin/error";
+            public string SuccessUrl { get; set; } = "https://nxtcolombia.com/admin/success";
+            public string CancelUrl { get; set; } = "https://nxtcolombia.com/admin/error";
         }
 
 
