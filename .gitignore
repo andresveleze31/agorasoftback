@@ -1,8 +1,5 @@
 # App specific
-appsettings.json
-appsettings.*.json
-!appsettings.*.example.json
-!appsettings.template.json
+
 
 **/bin/
 **/obj/
