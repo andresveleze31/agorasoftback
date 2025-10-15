@@ -1,0 +1,14 @@
+# App specific
+appsettings.json
+appsettings.*.json
+!appsettings.*.example.json
+!appsettings.template.json
+
+**/bin/
+**/obj/
+
+# Archivos compilados
+*.dll
+*.exe
+*.pdb
+*.cache

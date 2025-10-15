@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    container_name: backend
+    ports:
+      - "5165:5165"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # 👇 Conexión a tu base local (no al contenedor)
+      - ConnectionStrings__DefaultConnection=Host=dpg-d3nu9ofdiees73e4i3qg-a.oregon-postgres.render.com;Port=5432;Database=agorasoft;Username=agorasoft_user;Password=Vay9s0uYf2FpJYiGySyK0PWTls5WoVqV
+    networks:
+      - backend-net
+
+networks:
+  backend-net:
